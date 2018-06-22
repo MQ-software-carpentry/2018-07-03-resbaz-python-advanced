@@ -603,15 +603,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     If there is a green tick in the checkbox for pytest, then pytest is installed,
     otherwise click the checkbox and follow the prompts.
   </p>
+  <p>Once pytest is installed, go the "Checking pytest works" section</p>
   <h4>Others</h4>
   <p>
     If you have installed Python via some other method, then install pytest via pip:
     <pre>python -m pip install pytest</pre>
     Furthur information about using pip can be found at https://packaging.python.org/tutorials/installing-packages/.
   </p>
+  <p>Once pytest is installed, go the "Checking pytest works" section</p>
+  <h4>Checking pytest works</h4>
   <p> 
     To check that pytest works, run
     <pre>pytest --version</pre>
+    inside the bash shell.
     This should produce output similar to
     <pre>This is pytest version 3.6.2, imported from /usr/lib/python3/site-packages/pytest/__init__.pyc</pre>
   </p>

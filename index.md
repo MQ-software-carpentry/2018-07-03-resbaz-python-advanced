@@ -593,18 +593,23 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <h3>pytest</h3>
 
   <p>
-    <a href="https://docs.pytest.org/en/latest/">pytest</a> is the most widely used
-    testing tool used with Python.
-	
+  <a href="https://docs.pytest.org/en/latest/">pytest</a> is the most widely used
+  testing tool used with Python.
+  </p>
+  <h4>Anaconda Users</h4>
+  <p>
     If you have used Anaconda to install Python, then the best way of installing pytest
     is to open the Anaconda Navigator, select the Environments tab, and search for pytest.
     If there is a green tick in the checkbox for pytest, then pytest is installed,
     otherwise click the checkbox and follow the prompts.
-    
+  </p>
+  <h4>Others</h4>
+  <p>
     If you have installed Python via some other method, then install pytest via pip:
     <pre>python -m pip install pytest</pre>
     Furthur information about using pip can be found at https://packaging.python.org/tutorials/installing-packages/.
-    
+  </p>
+  <p> 
     To check that pytest works, run
     <pre>pytest --version</pre>
     This should produce output similar to
